@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Digital";
+    src: url(./Digital7Monoitalic-8MDLJ.ttf);
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Digital";
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    background:
+        radial-gradient(circle at top left, rgb(218, 52, 52), rebeccapurple),
+        linear-gradient(to right, blue, rgb(136, 17, 17));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contener {
+    height: 400px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.contener h1:first-child{
+    font-size: 45px;
+}
+
+.contener h1{
+padding: 20px;
+}
+.contener #count{
+    font-size: 7rem;
+}
+.contener button{
+    margin-top: 20%;
+    background-color: rgb(222, 58, 8);
+    padding: 15px 20px;
+    margin-left: 8px;
+    font-size: 1rem;
+    font-weight: 900;
+    border-radius: 5px;
+    font-family: "Digital";
+}
