@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+button{
+    padding: 20px 35px;
+    background-color: salmon;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+   border-radius: 10px;
+   outline: none;
+   border: none;
+    cursor: pointer;
+}
