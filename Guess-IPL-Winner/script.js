@@ -61,5 +61,9 @@ let arr=[
     }
 ]
 
+let btn = document.querySelector('button');
 
-console.log(arr);
+btn.addEventListener('click',function(){
+    console.log(arr);
+    
+})
