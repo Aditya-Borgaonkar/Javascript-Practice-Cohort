@@ -15,6 +15,6 @@ btn.addEventListener('click', function () {
         btn.innerHTML="Downloded"
         btn.style.opacity="0.5"
         btn.style.pointerEvents='none'
-    },num*100);
+    },num*100 );
 
 })
